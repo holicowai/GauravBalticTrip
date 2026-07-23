@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baltic Trip Guide — Aug 15-23</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0a0a0a; color: #e0e0e0; padding: 16px; max-width: 500px; margin: 0 auto; }
+h1 { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 4px; letter-spacing: -0.02em; }
+.subtitle { font-size: 12px; color: #666; margin-bottom: 6px; }
+.updated { font-size: 10px; color: #444; margin-bottom: 20px; }
+.city-header { background: linear-gradient(135deg, #1a1a2e, #16213e); border-radius: 12px; padding: 16px; margin-bottom: 12px; border: 1px solid #2a2a4a; }
+.city-name { font-size: 18px; font-weight: 700; color: #fff; }
+.city-dates { font-size: 12px; color: #8888aa; margin-top: 2px; }
+.city-hotel { font-size: 11px; color: #6366f1; margin-top: 6px; font-weight: 600; }
+.hotel-detail { font-size: 11px; color: #888; margin-top: 2px; line-height: 1.5; }
+.section { margin-bottom: 8px; border: 1px solid #1a1a1a; border-radius: 10px; overflow: hidden; background: #111; }
+.section-header { padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; user-select: none; }
+.section-header:active { background: #1a1a1a; }
+.section-title { font-size: 14px; font-weight: 600; color: #fff; }
+.day-badge { font-size: 10px; color: #fff; background: #6366f1; padding: 2px 8px; border-radius: 10px; font-weight: 600; }
+.day-badge-hel { background: #0891b2; }
+.day-badge-tal { background: #7c3aed; }
+.day-badge-dep { background: #dc2626; }
+.section-body { display: none; padding: 0 16px 16px; }
+.section.open .section-body { display: block; }
+.section.open .arrow { transform: rotate(90deg); }
+.arrow { color: #444; font-size: 12px; transition: transform 0.15s; margin-left: 8px; }
+.time-block { margin-bottom: 12px; }
+.time-label { font-size: 10px; font-weight: 700; color: #6366f1; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+.time-label-hel { color: #0891b2; }
+.time-label-tal { color: #7c3aed; }
+.venue { font-size: 13px; font-weight: 600; color: #fff; }
+.venue-detail { font-size: 12px; color: #999; line-height: 1.5; margin-top: 2px; }
+.venue-address { font-size: 11px; color: #555; margin-top: 2px; }
+.venue-walk { font-size: 10px; color: #ea580c; font-weight: 600; margin-top: 2px; }
+.tip { background: #1a1207; border: 1px solid #332a0d; border-radius: 8px; padding: 10px 12px; margin: 8px 0; }
+.tip-label { font-size: 9px; font-weight: 700; color: #eab308; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+.tip-text { font-size: 11px; color: #a0940a; line-height: 1.5; }
+.divider { height: 1px; background: #222; margin: 10px 0; }
+.alert { background: #1a0707; border: 1px solid #3a1010; border-radius: 8px; padding: 10px 12px; margin: 8px 0; }
+.alert-label { font-size: 9px; font-weight: 700; color: #ef4444; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+.alert-text { font-size: 11px; color: #ef4444; line-height: 1.5; }
+.cheat-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #1a1a1a; font-size: 12px; }
+.cheat-label { color: #888; }
+.cheat-val { color: #fff; font-weight: 600; text-align: right; }
+.gem { font-size: 10px; color: #10b981; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+
+<h1>Baltic Trip Guide</h1>
+<p class="subtitle">Helsinki &rarr; Tallinn &bull; August 15-23, 2026</p>
+<p class="updated">Pull up on your phone. Tap any day to expand.</p>
+
+<!-- ==================== HELSINKI ==================== -->
+
+<div class="city-header">
+<div class="city-name">Helsinki, Finland</div>
+<div class="city-dates">Saturday Aug 15 &ndash; Monday Aug 17</div>
+<div class="city-hotel">Hotel U14, Autograph Collection</div>
+<div class="hotel-detail">Unioninkatu 14, 00130 Helsinki<br>
+Between Esplanade park &amp; South Harbor waterfront<br>
+Sauna: Mon-Fri 18-22, Sat-Sun 8-11 &amp; 18-22 &bull; Free bicycles &bull; Gym<br>
+Version Drinkery bar: Mon-Sat 5pm-11:30pm<br>
+No rooftop bar (Palace Restaurant next door has one)</div>
+<div class="hotel-detail" style="margin-top:6px; color:#ea580c;">
+<strong>Walking from hotel:</strong> Market Square 5 min &bull; Erottaja bars 7-10 min &bull; Central Station 15 min &bull; Kallio 25-35 min (or metro 1 stop) &bull; Katajanokka ferry 15-20 min &bull; West Harbor ferry: tram 7/9</div>
+</div>
+
+<!-- SAT AUG 15 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Saturday Aug 15 &mdash; Arrive &amp; Go Out</span>
+<span><span class="day-badge day-badge-hel">HEL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-hel">5:00 PM &mdash; ARRIVE</div>
+<div class="venue-detail">I/P train from airport &rarr; Central Station (30 min, &euro;4.60, every 10 min). Walk through Esplanade park to hotel (15 min).</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">6:30-8:00 PM &mdash; SETTLE IN</div>
+<div class="venue-detail">Freshen up. Hotel sauna open until 10pm on Saturdays. Or grab a free hotel bicycle and ride the harbor promenade toward Kaivopuisto park &mdash; beautiful in August evening light. Sunset ~9:30pm, sky stays lit until midnight.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">8-10 PM &mdash; DINNER + FIRST DRINKS</div>
+<div class="venue">Grotesk</div>
+<div class="venue-address">Ludviginkatu 10</div>
+<div class="venue-walk">12 min walk from hotel</div>
+<div class="venue-detail">Restaurant that flips to DJ bar. Packed summer terrace &mdash; one of Helsinki's best outdoor spots. Great for solo socializing on warm evenings.</div>
+<div class="divider"></div>
+<div class="venue">Ateljee Bar (Hotel Torni rooftop)</div>
+<div class="venue-address">Yrj&ouml;nkatu 26</div>
+<div class="venue-walk">15 min walk</div>
+<div class="venue-detail">360-degree city views. Good for a first-night orientation drink as the sky goes pink. Can be touristy but the view earns it.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">10 PM-MIDNIGHT &mdash; COCKTAILS (PUNAVUORI/EROTTAJA)</div>
+<div class="venue">Liberty or Death</div>
+<div class="venue-address">Erottajankatu 5</div>
+<div class="venue-walk">7 min walk from hotel</div>
+<div class="venue-detail">Helsinki's best cocktail bar. Dark, moody, Nordic ingredients. &euro;15-18. Fills by 10pm Saturdays. Crowd: 28-45, professionals, international. Good for actual conversation.</div>
+<div class="divider"></div>
+<div class="venue">Trillby &amp; Chadwick</div>
+<div class="venue-address">Katariinankatu 1D</div>
+<div class="venue-detail">Speakeasy &mdash; ring the buzzer. Excellent bar seating for solo. &euro;17/cocktail.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">MIDNIGHT-3AM+ &mdash; KALLIO</div>
+<div class="venue-detail">Metro from University of Helsinki station (1 stop to Hakaniemi) or Bolt &euro;8-12.</div>
+<div class="divider"></div>
+<div class="venue">Siltanen</div>
+<div class="venue-address">H&auml;meentie 13B, Kallio</div>
+<div class="venue-detail">Caf&eacute; by day, disco by night. Living-room vibe, terrace, approachable crowd. Good Kallio entry point.</div>
+<div class="divider"></div>
+<div class="venue">Kaiku</div>
+<div class="venue-address">Kaikukatu 4, Kallio</div>
+<div class="venue-detail">Guardian top-25 club in Europe. Intimate, house/techno, world-class sound. Entry &euro;12-18. Crowd: 25-35, international. This is where Saturday energy peaks.</div>
+<div class="divider"></div>
+<div class="venue">Stidil&auml;</div>
+<div class="venue-address">Kaikukatu, Kallio</div>
+<div class="venue-detail">Afterhours until 8am. Cover &euro;5-10. If you're still going.</div>
+</div>
+
+<div class="tip">
+<div class="tip-label">Local gem</div>
+<div class="tip-text"><strong>Tokoinranta park</strong> (Kallio waterfront) &mdash; locals bring their own beer (legal in Finland), sit on the grass, watch the sky not get dark. Uniquely Finnish summer social scene. Walk into Kallio bars from here.</div>
+</div>
+
+<div class="tip">
+<div class="tip-label">Social note</div>
+<div class="tip-text">Finns warm up slowly. Don't expect American openness at 10pm. Dance floor and bar rail are better approach spots than mid-crowd. After 1am things loosen significantly. Being Indian-American is genuinely interesting here &mdash; you're not another Finnish/European guy. Use that.</div>
+</div>
+
+</div>
+</div>
+
+<!-- SUN AUG 16 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Sunday Aug 16 &mdash; Explore &amp; Sauna</span>
+<span><span class="day-badge day-badge-hel">HEL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-hel">10-11 AM &mdash; COFFEE</div>
+<div class="venue">Caf&eacute; Regatta</div>
+<div class="venue-address">Merikannontie 8, T&ouml;&ouml;l&ouml;</div>
+<div class="venue-walk">20 min walk or quick Bolt</div>
+<div class="venue-detail">Iconic red waterfront cottage. Cinnamon buns, sea views, rowboats. Helsinki institution.</div>
+<div class="divider"></div>
+<div class="venue">Kaffa Roastery</div>
+<div class="venue-address">Pursimiehenkatu 29, Punavuori</div>
+<div class="venue-walk">15 min walk</div>
+<div class="venue-detail">Helsinki's best specialty coffee. Pour-overs &euro;4-7. Third-wave anchor.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">11 AM-1 PM &mdash; WALK THE REAL HELSINKI</div>
+<div class="venue-detail">Skip the tourist circuit. Walk from hotel south through <strong>Kaivopuisto Park</strong> (15 min) &mdash; locals sunbathe here on warm August Sundays with the sea in front. Continue along the waterfront toward Hernesaari.</div>
+<div class="divider"></div>
+<div class="venue"><span class="gem">Local gem</span> Pihlajasaari Island</div>
+<div class="venue-detail">Ferry from Kaivopuisto (~15 min). Sandy beaches, rocky shores. This is where actual Helsinki residents go in August, not Suomenlinna. Eastern side has naturist section. Pack water/sunscreen.</div>
+<div class="divider"></div>
+<div class="venue"><span class="gem">Local gem</span> Hakaniemi Sunday Flea Market</div>
+<div class="venue-address">Hakaniemi Square, 12-5pm</div>
+<div class="venue-detail">200+ vendors. Salmon soup and Finnish snacks. Local institution. Worth 90 min.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">1-2 PM &mdash; LUNCH</div>
+<div class="venue">Silvoplee</div>
+<div class="venue-address">H&auml;meentie 6, Hakaniemi</div>
+<div class="venue-detail">Helsinki's biggest vegetarian buffet. 30+ daily-changing dishes, pay by weight. Beloved institution.</div>
+<div class="divider"></div>
+<div class="venue">Harju 8</div>
+<div class="venue-address">Harjutori 8, Kallio</div>
+<div class="venue-detail">Mostly veggie menu. Sunday brunch 11-2pm. Transforms into candle-lit natural wine bar at night.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">2:30-5 PM &mdash; SAUNA (NON-NEGOTIABLE)</div>
+<div class="venue">L&ouml;yly</div>
+<div class="venue-address">Hernesaarenranta 4</div>
+<div class="venue-walk">20 min walk or quick Bolt</div>
+<div class="venue-detail">The design sauna. Waterfront, three saunas including smoke sauna, sea swimming between rounds, restaurant terrace. Co-ed, swimsuit required. ~&euro;19-22. <strong>Book ahead at loylyhelsinki.fi.</strong> Crowd: 30-50 professionals, social energy. Spend 2-3 hours: sauna &rarr; sea &rarr; terrace drink &rarr; repeat.</div>
+<div class="divider"></div>
+<div class="venue"><span class="gem">Local gem</span> Kotiharjun Sauna</div>
+<div class="venue-address">Harjukatu 1, Kallio</div>
+<div class="venue-detail">Helsinki's last traditional wood-heated public sauna, since 1928. Massive 3m oven, 1,500kg stones. &euro;15. Separate men/women. The authentic local experience. Not a design showpiece &mdash; the real thing.</div>
+<div class="divider"></div>
+<div class="venue"><span class="gem">Local gem</span> Sompasauna</div>
+<div class="venue-address">Mustikkamaa island (near S&ouml;rn&auml;inen metro)</div>
+<div class="venue-detail"><strong>Free. 24/7. Volunteer-run.</strong> Wood-fired, swim in the sea. Bring your own towel and drinks. The one Helsinki locals are fiercely proud of.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">6-8 PM &mdash; DINNER</div>
+<div class="venue">YesYesYes</div>
+<div class="venue-address">Iso Roobertinkatu 9, Punavuori</div>
+<div class="venue-walk">15 min walk</div>
+<div class="venue-detail">Fully vegetarian, globally inspired, seasonal. Also functions as a bar with good Sunday evening vibe.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">EVENING &mdash; LOW KEY</div>
+<div class="venue-detail">Sunday nightlife is lighter. Siltanen often has Sunday DJs. Caf&eacute; Bar9 (Kallio) open until 2am. Harju 8 for natural wine and candles. Save energy &mdash; you have six nights in Tallinn.</div>
+</div>
+
+<div class="tip">
+<div class="tip-label">August magic</div>
+<div class="tip-text">In August, Helsinki moves entirely outdoors. Every park, terrace, pier, island, and sauna dock becomes a social space. Finns are drunk on daylight after 9 months of darkness. Terrace culture isn't optional &mdash; it's survival ritual. Terraces fill by 5pm and stay full until 3am.</div>
+</div>
+
+</div>
+</div>
+
+<!-- MON AUG 17 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Monday Aug 17 &mdash; Ferry to Tallinn</span>
+<span><span class="day-badge day-badge-hel">HEL&rarr;TAL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-hel">MORNING</div>
+<div class="venue-detail">Sleep in. Hotel sauna opens 8am weekdays. Coffee at Esplanade or hotel. Walk to Market Square (5 min) for final wander.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-hel">~10:30-11 AM &mdash; FERRY</div>
+<div class="venue">Recommended: Viking Line from Katajanokka</div>
+<div class="venue-walk">15-20 min walk from hotel along the harbor</div>
+<div class="venue-detail">2h 15min crossing. From ~&euro;16. Book at vikingline.com.<br>Arrives Terminal A in Tallinn &mdash; closest to Old Town.</div>
+<div class="divider"></div>
+<div class="venue">Alternative: Tallink from West Harbor</div>
+<div class="venue-detail">2h crossing (fastest). From ~&euro;36. Take Tram 7/9 (30 min from hotel). Book at tallink.com.</div>
+<div class="divider"></div>
+<div class="venue-detail"><strong>On board:</strong> restaurants, cafeteria, bars with sea views, large duty-free store (alcohol much cheaper than Helsinki &mdash; stock up for Tallinn). All card-only. Bring passport.</div>
+</div>
+
+<div class="alert">
+<div class="alert-label">Book now</div>
+<div class="alert-text">Summer sailings can sell out. Book at vikingline.com, tallink.com, or compare at directferries.com / ferryhopper.com.</div>
+</div>
+
+</div>
+</div>
+
+<!-- ==================== TALLINN ==================== -->
+
+<div class="city-header" style="background: linear-gradient(135deg, #1a102e, #2d1b69);">
+<div class="city-name">Tallinn, Estonia</div>
+<div class="city-dates">Monday Aug 17 &ndash; Sunday Aug 23</div>
+<div class="city-hotel">Nordic Hotel Forum</div>
+<div class="hotel-detail">Viru v&auml;ljak 3, 10111 Tallinn<br>
+At the front door of Old Town &mdash; Viru Gate is across the street<br>
+8th floor: pool, jacuzzi, saunas with Old Town views (free for guests, 7am-10pm)<br>
+Noho Bar: ground floor, cocktails &amp; open fireplace<br>
+No rooftop bar (8th floor leisure center is alcohol-free)</div>
+<div class="hotel-detail" style="margin-top:6px; color:#ea580c;">
+<strong>Walking from hotel:</strong> Viru Gate 2-3 min &bull; Town Hall Square 8-10 min &bull; Rotermann Quarter 3-5 min &bull; Telliskivi 15-20 min &bull; Kalamaja 25-35 min &bull; Ferry terminal 12-15 min &bull; Airport: 10 min Bolt</div>
+</div>
+
+<!-- MON AUG 17 TALLINN -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Monday Aug 17 &mdash; Arrive &amp; Explore</span>
+<span><span class="day-badge day-badge-tal">TAL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-tal">~1 PM &mdash; ARRIVE TALLINN</div>
+<div class="venue-detail">Viking Line: Terminal A (Sadama 25) &rarr; 15 min walk to hotel through port area toward Viru Square.<br>Tallink: Terminal D &rarr; 15 min walk or &euro;4 Bolt.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">2-4 PM &mdash; OLD TOWN FIRST WALK</div>
+<div class="venue-detail">You're 2 min from Viru Gate. Do the tourist circuit once so you can ignore it the rest of the week: <strong>Viru Gate &rarr; Town Hall Square &rarr; Toompea Hill</strong> (panoramic views) <strong>&rarr; Alexander Nevsky Cathedral &rarr; old walls.</strong> Get it out of your system day one.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">4-5 PM &mdash; ROTERMANN QUARTER</div>
+<div class="venue">R&Ouml;ST Bakery &amp; Caf&eacute;</div>
+<div class="venue-walk">3-5 min walk from hotel</div>
+<div class="venue-detail">Converted industrial buildings. Excellent cinnamon buns, sourdough. Modern Tallinn counterpoint to medieval Old Town.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">6-8 PM &mdash; DINNER</div>
+<div class="venue">Vegan Restoran V</div>
+<div class="venue-address">Rataskaevu 12, Old Town</div>
+<div class="venue-walk">8 min walk</div>
+<div class="venue-detail">4.8 stars, 3,000 reviews. Tallinn's top veg restaurant. Book ahead.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">9 PM &mdash; MONDAY NIGHT (EASE IN)</div>
+<div class="venue">Levist V&auml;ljas</div>
+<div class="venue-address">Olevim&auml;gi 12, Old Town</div>
+<div class="venue-walk">8 min walk</div>
+<div class="venue-detail">Best cocktail bar in Tallinn. Quiet enough for conversation. Estonian spirits. &euro;10-13. Excellent for meeting people.</div>
+<div class="divider"></div>
+<div class="venue">Sigmund Freud Bar</div>
+<div class="venue-address">Sauna 8</div>
+<div class="venue-detail">Fun themed bar. Mixed international/local crowd. Good for striking up conversations.</div>
+<div class="divider"></div>
+<div class="venue">Depeche Mode Baar</div>
+<div class="venue-address">Voorimehe 4</div>
+<div class="venue-detail">Exactly what it sounds like. Quirky, social, instant ice-breaker.</div>
+</div>
+
+</div>
+</div>
+
+<!-- TUE AUG 18 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Tuesday Aug 18 &mdash; Telliskivi + Hayley Call</span>
+<span><span class="day-badge day-badge-tal">TAL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="alert">
+<div class="alert-label">Hayley Session 7</div>
+<div class="alert-text">4:00 PM Tallinn time (9am ET). Use hotel room &mdash; ensure good wifi.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">MORNING &mdash; TELLISKIVI &amp; KALAMAJA</div>
+<div class="venue">Kalamaja Pagarikoda</div>
+<div class="venue-detail">Artisan bakery, opens 7:30am. Best morning start in this area.</div>
+<div class="divider"></div>
+<div class="venue">Telliskivi Creative City</div>
+<div class="venue-walk">15-20 min walk from hotel</div>
+<div class="venue-detail">Converted Soviet-era railway workshops. Independent caf&eacute;s, vintage shops, art studios, gin distillery. The cultural heart of Tallinn. Brooklyn circa 2015 &mdash; hipster but not hollow.</div>
+<div class="divider"></div>
+<div class="venue"><span class="gem">Local gem</span> Kalamaja neighborhood</div>
+<div class="venue-detail">Walk from Telliskivi into the colorful wooden houses. Tree-lined streets, young creative residents. This is where the interesting Tallinn women live. Worth an hour's morning walk.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">12-1 PM &mdash; LUNCH</div>
+<div class="venue">Balti Jaama Turg (Baltic Station Market)</div>
+<div class="venue-detail">Tallinn's best market. Borders Kalamaja/Telliskivi. Local produce, street food, vegan stalls, vintage goods. Lively.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">1-3:30 PM &mdash; KADRIORG</div>
+<div class="venue">Kadriorg Palace &amp; Park + KUMU Art Museum</div>
+<div class="venue-detail">Baroque palace, rose gardens. KUMU is Estonia's premier art museum &mdash; genuinely world-class. 15 min tram or Bolt. Worth 2-3 hours.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">4-5 PM &mdash; HAYLEY SESSION 7</div>
+<div class="venue-detail">Hotel room. Good wifi. Debrief Helsinki, preview London bootcamp.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">EVENING &mdash; TUESDAY BARS</div>
+<div class="venue">Whisper Sister</div>
+<div class="venue-address">P&auml;rnu mnt 12</div>
+<div class="venue-detail">4.8 stars. Upscale cocktail bar. Local crowd, high social energy. Strong pick for confident solo.</div>
+<div class="divider"></div>
+<div class="venue">Hell Hunt</div>
+<div class="venue-address">Pikk 39, Old Town</div>
+<div class="venue-detail">Best craft pub in Old Town. 5,800+ reviews. &euro;5-7/pint. Busy, no-pretense, conversation-friendly.</div>
+</div>
+
+</div>
+</div>
+
+<!-- WED AUG 19 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Wednesday Aug 19 &mdash; Seaplane Harbour + Beach</span>
+<span><span class="day-badge day-badge-tal">TAL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-tal">MORNING &mdash; SEAPLANE HARBOUR</div>
+<div class="venue">Lennusadam / Seaplane Harbour</div>
+<div class="venue-walk">15 min walk from hotel</div>
+<div class="venue-detail">Outstanding maritime museum in early 20th-century seaplane hangar. Submarines, icebreakers, flight simulators. Worth 2-3 hours.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">MIDDAY &mdash; NOBLESSNER</div>
+<div class="venue"><span class="gem">Local gem</span> Noblessner Harbor</div>
+<div class="venue-detail">Former submarine factory &rarr; restaurants, galleries, art spaces. Emerging area, less visited than Telliskivi. Lunch here.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">AFTERNOON &mdash; PIRITA BEACH</div>
+<div class="venue">Pirita Beach</div>
+<div class="venue-detail">Tallinn's main city beach. Bus or Bolt, 20 min. Sandy, beach volleyball, cafes. Baltic Sea warmest in August (17-19&deg;C). Popular with locals. Walk toward <strong>Pirita Convent ruins</strong> &mdash; atmospheric medieval ruins on the coastline, great photo spot.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">EVENING</div>
+<div class="venue">P&otilde;hjala Tap</div>
+<div class="venue-address">Telliskivi Creative City</div>
+<div class="venue-detail">Tallinn's top craft beer taproom. Busy from 7pm. Local scene, good for conversation.</div>
+<div class="divider"></div>
+<div class="venue">ARKEL Rooftop Bar</div>
+<div class="venue-detail">Japanese cuisine, cocktails, tropical neon vibe, views over Old Town spires.</div>
+</div>
+
+</div>
+</div>
+
+<!-- THU AUG 20 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Thursday Aug 20 &mdash; Day Trip + Big Night Out</span>
+<span><span class="day-badge day-badge-tal">TAL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-tal">DAYTIME &mdash; LAHEMAA NATIONAL PARK</div>
+<div class="venue">Estonia's #1 day trip</div>
+<div class="venue-detail">Manor houses (Palmse), bog trails, coastal fishing villages (K&auml;smu &ldquo;Captains' Village&rdquo;). Guided tours depart ~9:30am, return late afternoon. ~&euro;85-95/person. <strong>Book ahead.</strong> Gets you into Estonian nature &mdash; stunningly different from anything in DC.</div>
+<div class="divider"></div>
+<div class="venue-detail"><strong>Alternative if staying in town:</strong> Fotografiska Tallinn (world-class photography gallery, Kalamaja area) + Kohvik Must Puudel (Black Poodle caf&eacute; &mdash; Soviet-nostalgia decor, cakes, natural wine).</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">EVENING &mdash; THURSDAY (BEST WEEKNIGHT)</div>
+<div class="venue-detail">Thursday is when Tallinn's club scene starts its weekend. This is your big weeknight out.</div>
+<div class="divider"></div>
+<div class="venue">Philly Joe's Jazz Club</div>
+<div class="venue-address">Vabaduse v&auml;ljak 10</div>
+<div class="venue-detail">Jazz Thu-Sat from 9pm. &euro;5 cover. Intimate, conversation-friendly. Great for meeting women in a sophisticated setting.</div>
+<div class="divider"></div>
+<div class="venue">Club Prive</div>
+<div class="venue-address">Harju 6</div>
+<div class="venue-detail">Best all-around club. Three floors, house/techno/pop. Entry &euro;5-8. Open until 5am Thursday. Smart-casual.</div>
+<div class="divider"></div>
+<div class="venue">Club Studio</div>
+<div class="venue-address">Sauna 1</div>
+<div class="venue-detail">Best for electronic music. International DJs. Entry &euro;8-15. More discerning crowd.</div>
+</div>
+
+</div>
+</div>
+
+<!-- FRI AUG 21 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Friday Aug 21 &mdash; Chill Day + Peak Night</span>
+<span><span class="day-badge day-badge-tal">TAL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-tal">MORNING &mdash; HOTEL SPA</div>
+<div class="venue-detail">8th floor pool, jacuzzi, saunas with Old Town panorama. Complimentary. Take it slow &mdash; big night ahead.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">MIDDAY</div>
+<div class="venue">Rohe Kohvik</div>
+<div class="venue-detail">100% plant-based. Across from Balti Jaama Turg market. Local favorite.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">AFTERNOON &mdash; OLD TOWN DEEP</div>
+<div class="venue-detail"><strong>St. Olaf's Church tower climb</strong> &mdash; panoramic view of entire city. Then the medieval streets south of Town Hall Square (R&uuml;&uuml;tli, M&uuml;&uuml;rivahe) &mdash; quieter, fewer tourists. Walk sections of the <strong>old walls and towers.</strong></div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">EVENING &mdash; FRIDAY NIGHT (THE BIG ONE)</div>
+<div class="venue-detail">Dinner at 7pm, then:</div>
+<div class="divider"></div>
+<div class="venue">9-11 PM: Levist V&auml;ljas or Whisper Sister</div>
+<div class="venue-detail">Start with cocktails. Build social energy.</div>
+<div class="divider"></div>
+<div class="venue">11 PM: Club Hollywood</div>
+<div class="venue-address">Vana-Posti 8</div>
+<div class="venue-detail">Tallinn's most iconic club since 1997. Bigger, louder, commercial. Entry &euro;8-12. Friday is easier than Saturday for queues.</div>
+<div class="divider"></div>
+<div class="venue">1 AM+: Club Studio or Sveta</div>
+<div class="venue-address">Sveta: Telliskivi 60a</div>
+<div class="venue-detail">Studio for late-night electronic. Sveta for alternative/indie &mdash; live music, younger local crowd, most authentic.</div>
+</div>
+
+</div>
+</div>
+
+<!-- SAT AUG 22 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Saturday Aug 22 &mdash; Last Full Day</span>
+<span><span class="day-badge day-badge-tal">TAL</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label time-label-tal">MORNING &mdash; TELLISKIVI FLEA MARKET</div>
+<div class="venue-detail">Saturday flea market at Telliskivi. Genuine local market &mdash; vintage clothing, handmade goods, street food. Not tourist trinkets.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">MIDDAY &mdash; SAUNA</div>
+<div class="venue"><span class="gem">Local gem</span> Kalma Saun</div>
+<div class="venue-address">Kalma 5</div>
+<div class="venue-detail">Built 1928. One of Tallinn's oldest functioning public saunas. Traditional wood-burning stove, pool, steam room. Authentic, not a tourist spa.</div>
+<div class="divider"></div>
+<div class="venue">Iglupark</div>
+<div class="venue-detail">Seaside sauna pods. Rent a pod, swim in the sea, drink with the skyline view. Very social.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">AFTERNOON</div>
+<div class="venue-detail">Final Old Town walk. Pick up <strong>Vana Tallinn</strong> (Estonian herbal liqueur) from any shop &mdash; the local spirit. Or: last visit to Kadriorg rose gardens.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label time-label-tal">EVENING &mdash; SATURDAY NIGHT (LAST HURRAH)</div>
+<div class="venue">Radisson Collection Sky Lobby</div>
+<div class="venue-detail">24th floor. Panoramic city views. Sophisticated. Start with a sunset cocktail here.</div>
+<div class="divider"></div>
+<div class="venue-detail">Then: your favorite club from the week. Saturday is peak night everywhere.</div>
+</div>
+
+<div class="alert">
+<div class="alert-label">Before going out</div>
+<div class="alert-text">Pack your bags. Set TWO alarms. Your flight is at 7:30am. Pre-book a Bolt or arrange hotel taxi tonight. Airport is 10 min from hotel.</div>
+</div>
+
+</div>
+</div>
+
+<!-- SUN AUG 23 -->
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Sunday Aug 23 &mdash; Departure</span>
+<span><span class="day-badge day-badge-dep">FLY</span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div class="time-block">
+<div class="time-label" style="color:#dc2626;">4:30-5:00 AM &mdash; WAKE UP</div>
+<div class="venue-detail">Final pack. Check room.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label" style="color:#dc2626;">5:15 AM &mdash; BOLT / TAXI TO AIRPORT</div>
+<div class="venue-detail">Tallinn Airport (Lennart Meri). 4.1km from hotel, ~10 min by car. &euro;10-15.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label" style="color:#dc2626;">5:30 AM &mdash; AT AIRPORT</div>
+<div class="venue-detail">Check in, security.</div>
+</div>
+
+<div class="time-block">
+<div class="time-label" style="color:#dc2626;">7:30 AM &mdash; FLIGHT DEPARTS</div>
+</div>
+
+</div>
+</div>
+
+<!-- ==================== CHEAT SHEET ==================== -->
+
+<div class="section">
+<div class="section-header" onclick="this.parentElement.classList.toggle('open')">
+<span class="section-title">Quick Reference &mdash; Cheat Sheet</span>
+<span><span class="arrow">&#9654;</span></span>
+</div>
+<div class="section-body">
+
+<div style="font-size:12px; font-weight:700; color:#0891b2; margin-bottom:8px;">HELSINKI</div>
+<div class="cheat-row"><span class="cheat-label">Beer</span><span class="cheat-val">&euro;6.50-8.50</span></div>
+<div class="cheat-row"><span class="cheat-label">Cocktails</span><span class="cheat-val">&euro;14-18</span></div>
+<div class="cheat-row"><span class="cheat-label">Club entry</span><span class="cheat-val">&euro;10-20</span></div>
+<div class="cheat-row"><span class="cheat-label">Bars close</span><span class="cheat-val">2-3am</span></div>
+<div class="cheat-row"><span class="cheat-label">Clubs close</span><span class="cheat-val">4-5am weekends</span></div>
+<div class="cheat-row"><span class="cheat-label">Nightlife starts</span><span class="cheat-val">10pm bars, midnight clubs</span></div>
+<div class="cheat-row"><span class="cheat-label">Taxi app</span><span class="cheat-val">Bolt</span></div>
+<div class="cheat-row"><span class="cheat-label">Transit app</span><span class="cheat-val">HSL</span></div>
+<div class="cheat-row"><span class="cheat-label">Tipping</span><span class="cheat-val">Not expected</span></div>
+
+<div style="font-size:12px; font-weight:700; color:#7c3aed; margin-top:16px; margin-bottom:8px;">TALLINN</div>
+<div class="cheat-row"><span class="cheat-label">Beer</span><span class="cheat-val">&euro;4-7</span></div>
+<div class="cheat-row"><span class="cheat-label">Cocktails</span><span class="cheat-val">&euro;8-13</span></div>
+<div class="cheat-row"><span class="cheat-label">Club entry</span><span class="cheat-val">&euro;5-15</span></div>
+<div class="cheat-row"><span class="cheat-label">Bars close</span><span class="cheat-val">Midnight-2am</span></div>
+<div class="cheat-row"><span class="cheat-label">Clubs close</span><span class="cheat-val">4-5am Fri/Sat</span></div>
+<div class="cheat-row"><span class="cheat-label">Nightlife starts</span><span class="cheat-val">9-10pm bars, 11pm clubs</span></div>
+<div class="cheat-row"><span class="cheat-label">Taxi app</span><span class="cheat-val">Bolt</span></div>
+<div class="cheat-row"><span class="cheat-label">Tipping</span><span class="cheat-val">5-10% for great service</span></div>
+<div class="cheat-row"><span class="cheat-label">Dating apps</span><span class="cheat-val">Tinder #1, Bumble, Hinge</span></div>
+<div class="cheat-row"><span class="cheat-label">Best club nights</span><span class="cheat-val">Thu-Sat</span></div>
+
+<div style="font-size:12px; font-weight:700; color:#ea580c; margin-top:16px; margin-bottom:8px;">BOTH CITIES</div>
+<div class="cheat-row"><span class="cheat-label">Currency</span><span class="cheat-val">Euro (&euro;)</span></div>
+<div class="cheat-row"><span class="cheat-label">Cards</span><span class="cheat-val">95%+ cashless everywhere</span></div>
+<div class="cheat-row"><span class="cheat-label">Language</span><span class="cheat-val">Fluent English</span></div>
+<div class="cheat-row"><span class="cheat-label">Weather Aug</span><span class="cheat-val">14-22&deg;C / 57-72&deg;F</span></div>
+<div class="cheat-row"><span class="cheat-label">Sunset</span><span class="cheat-val">~9:30pm, sky lit until midnight</span></div>
+<div class="cheat-row"><span class="cheat-label">Passport</span><span class="cheat-val">Carry at all times (ferry)</span></div>
+
+<div class="tip" style="margin-top:12px;">
+<div class="tip-label">Dating apps</div>
+<div class="tip-text">Set Tinder + Bumble location to <strong>Helsinki by Aug 13</strong> and <strong>Tallinn by Aug 15</strong> to start building matches before you arrive. Tinder has the most volume in Estonia. Run all three simultaneously.</div>
+</div>
+
+<div class="tip">
+<div class="tip-label">Tallinn events during your stay</div>
+<div class="tip-text"><strong>Tallinn Fringe Festival</strong> starts Aug 18 &mdash; runs through Sep 18. Multiple venues, domestic and international artists. Perfectly timed with your stay. Check tallinnfringe.ee for schedule.</div>
+</div>
+
+<div class="tip">
+<div class="tip-label">Pack list</div>
+<div class="tip-text">Light layers &bull; Packable rain jacket &bull; Walking shoes &bull; One smart-casual outfit for bars/clubs &bull; Swimsuit (saunas + beach) &bull; Sunglasses &bull; Passport &bull; Phone charger/portable battery</div>
+</div>
+
+</div>
+</div>
+
+<p class="updated" style="margin-top:20px; text-align:center;">Version 1.0 &mdash; July 2026<br>Built from research across 30+ sources.<br>Tap any section to expand. Pull up on your phone.</p>
+
+<script>
+// Auto-open first section
+// document.querySelector('.section').classList.add('open');
+</script>
+
+</body>
+</html>
